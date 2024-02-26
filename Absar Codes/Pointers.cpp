@@ -4,5 +4,6 @@ using namespace std;
 int main(){
     int a = 10;
     int *ptr = &a;
-    cout<<ptr;
+    a = 11;
+    cout<<*ptr;
 }
